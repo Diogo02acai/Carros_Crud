@@ -1,8 +1,8 @@
-package service;
+package com.example._crud_carro_.service;
 
-import model.Carro;
+import com.example._crud_carro_.model.Carro;
 import org.springframework.stereotype.Service;
-import repository.CarroRepository;
+import com.example._crud_carro_.repository.CarroRepository;
 
 import java.util.List;
 

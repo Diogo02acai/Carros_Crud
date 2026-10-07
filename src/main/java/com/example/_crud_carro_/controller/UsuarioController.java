@@ -1,14 +1,15 @@
-package controller;
+package com.example._crud_carro_.controller;
 
-import model.Usuario;
+import com.example._crud_carro_.model.Usuario;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
-import service.UsuarioService;
+import com.example._crud_carro_.service.UsuarioService;
 
 import java.util.List;
 
-@Controller
+@RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/usuarios")
 public class UsuarioController {
 
