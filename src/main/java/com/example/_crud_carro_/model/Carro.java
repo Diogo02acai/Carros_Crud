@@ -1,4 +1,4 @@
-package model;
+package com.example._crud_carro_.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

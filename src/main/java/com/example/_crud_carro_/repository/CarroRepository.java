@@ -1,6 +1,6 @@
-package repository;
+package com.example._crud_carro_.repository;
 
-import model.Carro;
+import com.example._crud_carro_.model.Carro;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CarroRepository extends JpaRepository<Carro, Long> {}
